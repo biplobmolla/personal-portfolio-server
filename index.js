@@ -4,8 +4,7 @@ const app = express();
 
 app.use(
   cors({
-    origin:
-      "https://personal-portfolio-client-3hbbz0i4a-biplobmolla.vercel.app/",
+    origin: "*",
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
   })
 );
