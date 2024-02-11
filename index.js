@@ -6,6 +6,7 @@ app.use(
   cors({
     origin: "*",
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
+    credentials: "include",
   })
 );
 // app.use(json());
